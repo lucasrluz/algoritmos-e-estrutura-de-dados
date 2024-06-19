@@ -1,0 +1,16 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "binary_search"
+path = "./src/binary_search.rs"
+
+[[bin]]
+name = "selection_sort"
+path = "./src/selection_sort.rs"
+
+
